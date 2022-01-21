@@ -1,0 +1,8 @@
+You can use a support vector machine (SVM) when your data has exactly two classes. An SVM classifies data by 
+finding the best hyperplane that separates all data points of one class from those of the other class. 
+The best hyperplane for an SVM means the one with the largest margin between the two classes. 
+Margin means the maximal width of the slab parallel to the hyperplane that has no interior data points.
+
+The support vectors are the data points that are closest to the separating hyperplane; these points are on the
+ boundary of the slab. The following figure illustrates these definitions, with + indicating data points of type 1,
+ and – indicating data points of type –1.
